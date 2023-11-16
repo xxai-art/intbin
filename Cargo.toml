@@ -1,0 +1,22 @@
+[package]
+name = "intbin"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+homepage = "https://github.com/xxai-art/intbin"
+repository = "https://github.com/xxai-art/intbin"
+description = "convert int to bin / bin to int"
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile.release]
+lto = true
+opt-level = 3
+incremental = true
+codegen-units = 1
+overflow-checks = false
+panic = 'abort'
+debug-assertions = false
+# strip = true
