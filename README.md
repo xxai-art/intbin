@@ -20,9 +20,10 @@ run
 
 ```txt
 + cargo test -- --nocapture
-    Finished test [unoptimized + debuginfo] target(s) in 0.00s
-     Running unittests src/lib.rs (target/debug/deps/intbin-255e90d6507d21ad)
-     Running tests/main.rs (target/debug/deps/main-0f27b02ead65ab8e)
+   Compiling intbin v0.1.1 (/Users/z/art/intbin)
+    Finished test [unoptimized + debuginfo] target(s) in 0.12s
+     Running unittests src/lib.rs (target/debug/deps/intbin-ffe375fcab040bbd)
+     Running tests/main.rs (target/debug/deps/main-5e93df032d50e825)
 [tests/main.rs:6] &bin = [
     177,
     104,

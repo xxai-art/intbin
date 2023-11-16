@@ -30,5 +30,5 @@ pub fn bin_u8(bin: impl AsRef<[u8]>) -> u8 {
   if bin.is_empty() {
     return 0;
   };
-  bin[1]
+  bin[0]
 }
